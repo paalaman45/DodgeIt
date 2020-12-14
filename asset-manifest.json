@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/DodgeIt/static/css/main.e996c4ad.chunk.css",
+    "main.js": "/DodgeIt/static/js/main.bdab6906.chunk.js",
+    "main.js.map": "/DodgeIt/static/js/main.bdab6906.chunk.js.map",
+    "runtime-main.js": "/DodgeIt/static/js/runtime-main.06ebc4cb.js",
+    "runtime-main.js.map": "/DodgeIt/static/js/runtime-main.06ebc4cb.js.map",
+    "static/js/2.e41b5861.chunk.js": "/DodgeIt/static/js/2.e41b5861.chunk.js",
+    "static/js/2.e41b5861.chunk.js.map": "/DodgeIt/static/js/2.e41b5861.chunk.js.map",
+    "static/js/3.9b04e6f6.chunk.js": "/DodgeIt/static/js/3.9b04e6f6.chunk.js",
+    "static/js/3.9b04e6f6.chunk.js.map": "/DodgeIt/static/js/3.9b04e6f6.chunk.js.map",
+    "index.html": "/DodgeIt/index.html",
+    "static/css/main.e996c4ad.chunk.css.map": "/DodgeIt/static/css/main.e996c4ad.chunk.css.map",
+    "static/js/2.e41b5861.chunk.js.LICENSE.txt": "/DodgeIt/static/js/2.e41b5861.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/DodgeIt/static/media/bricks.56deb30f.png",
+    "static/media/fly-left.41c05e03.png": "/DodgeIt/static/media/fly-left.41c05e03.png",
+    "static/media/fly-right.32bb5916.png": "/DodgeIt/static/media/fly-right.32bb5916.png",
+    "static/media/heart.a38cb33a.png": "/DodgeIt/static/media/heart.a38cb33a.png",
+    "static/media/player-stand.c2b5c9ac.png": "/DodgeIt/static/media/player-stand.c2b5c9ac.png",
+    "static/media/player-stand2.3366bd42.png": "/DodgeIt/static/media/player-stand2.3366bd42.png",
+    "static/media/sprite.29798332.png": "/DodgeIt/static/media/sprite.29798332.png",
+    "static/media/sprite2.bf345748.png": "/DodgeIt/static/media/sprite2.bf345748.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.06ebc4cb.js",
+    "static/js/2.e41b5861.chunk.js",
+    "static/css/main.e996c4ad.chunk.css",
+    "static/js/main.bdab6906.chunk.js"
+  ]
+}
