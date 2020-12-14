@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+body {
+  background-color: #414040;
+  overflow: hidden;
+}
+.screen {
+  width: 100%;
+}
+.secret {
+  text-align: center;
+}
+.secret li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px 5px 10px;
+}
+button {
+  height: 25px;
+  width: 100%;
+  background-color: #251c47;
+  margin: 1px 0;
+  color: white;
+  border-style: none;
+}
+.game_screen {
+  width: 820px;
+  height: 420px;
+  margin: 0px auto;
+  border: 5px solid black;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  background-image: url("./img/bricks.png");
+  background-size: auto 420px;
+}
+.game_info {
+  border: 5px solid #000000;
+  width: 820px;
+  height: 30px;
+  background-color: white;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game_info ul {
+  list-style: none;
+}
+.score {
+  height: 20px;
+}
+.speed {
+  height: 20px;
+}
+.life {
+  height: 20px;
+}
+.game_info li {
+  float: left;
+  margin: 0 10px 0 10px;
+  padding: 5px 10px 5px 10px;
+  display: flex;
+  align-items: center;
+}
+.game_info li img {
+  margin: 0 20px 0 0px;
+}
+.player {
+  height: 100px;
+  width: 80px;
+  position: relative;
+  overflow: hidden;
+}
+.player img {
+  height: 100px;
+  position: relative;
+  left: 0px;
+}
+.obstacle {
+  height: 20px;
+  width: 80px;
+  position: relative;
+  background-color: #714a28;
+  border: 5px solid #000000;
+}
+.menus {
+  text-align: center;
+}
+.menus h1 {
+  margin-bottom: 15px;
+}
+.menus li {
+  margin: 1px;
+}
+.menus li input {
+  background-color: teal;
+  padding: 3px 9px 3px 9px;
+  height: 35px;
+  border: none;
+  width: 100px;
+  color: white;
+}
+#score {
+  position: absolute;
+  left: 170px;
+  top: 20px;
+  color: white;
+}
+#speed {
+  position: absolute;
+  left: 170px;
+  top: 40px;
+  color: white;
+}
+#time {
+  position: absolute;
+  left: 170px;
+  top: 60px;
+  color: white;
+}
+.player-name {
+  width: 95%;
+  height: 15px;
+  padding: 3px 5px;
+}
+.save {
+  height: 25px;
+  width: 50px;
+  margin-left: 5px;
+}
+.gameover {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  z-index: 50;
+  top: 120px;
+}
+.start {
+  height: 200px;
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  z-index: 50;
+}
+.input {
+  height: 25px;
+  padding-left: 5px;
+}
+.scoreBox {
+  height: 200px;
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  border: 5px solid black;
+  z-index: 0;
+  opacity: 0;
+  overflow-y: scroll;
+}
+.scrollable {
+  width: 90%;
+  height: auto;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.scrollable table,
+td.th {
+  border: 1px solid black;
+}
+.scrollable table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#table_output td,
+th {
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
