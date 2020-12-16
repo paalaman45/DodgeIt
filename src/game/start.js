@@ -1,4 +1,5 @@
 import React from "react";
+import AC from '../img/ac.png';
 const Start = (props) => {
     const he=props.visible;
     let none;
@@ -14,7 +15,8 @@ const Start = (props) => {
     return (
         <div className="start" style={visible}>
             <ul className="menus" id="menus">
-                <li><h1>Dodge It!</h1></li>
+                <img src={AC} alt="ac" height="100px"/>
+                <li><h1 className='title'>Dodge <span className="it">It</span></h1></li>
                 <li><input type="button" value="Play" onClick={props.gameStart} className="btnplay"/></li>
                 <li><input type="button" value="Score" onClick={props.gameScore}/></li>
             </ul>
